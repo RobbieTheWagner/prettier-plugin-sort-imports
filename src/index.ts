@@ -10,7 +10,7 @@ import { vuePreprocessor } from './preprocessors/vue-preprocessor';
 import type { Options } from 'prettier';
 
 import { createEmberParsers } from './utils/create-ember-parsers';
-import { createSvelteParsers } from './utils/create-svelte-parsers.cjs';
+import { createSvelteParsers } from './utils/create-svelte-parsers';
 
 const emberParsers = createEmberParsers();
 const svelteParsers = createSvelteParsers();
